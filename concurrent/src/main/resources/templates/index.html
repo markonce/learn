@@ -11,7 +11,7 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script>
 			$(function(){
-			var id = 1;
+			var id = 3;
 			$.ajax({
 				type: "POST",
 				url: "http://localhost:8080/product/" + id,
@@ -25,8 +25,8 @@
             $("#purchase").click(function(){
                 for (var i=1; i<=1000; i++) {
                     var params = {
-                        userId: 1,
-                        productId: 1,
+                        userId: 3,
+                        productId: 3,
                         num: 1
                     };
                     // 通过POST请求后端，这里的JavaScript会采用异步请求
